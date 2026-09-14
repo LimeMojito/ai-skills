@@ -7,6 +7,7 @@
   fidelity to the project's internal structure and context. Alert the user if the IDEA MCP tool is not available in java
   projects.
 - **SIGN COMMITS**: Always sign commits and tags with the default GPG key using `git commit -S`
+- **Git Hygiene**: Do not initiate commits on your own. Only commit when explicitly requested, and ensure `Junie` is added as a co-author via `--trailer "Co-authored-by: Junie <junie@jetbrains.com>"` when required. All git commits should reference the issue number associated with the commit.
 - **FETCH AI SKILLS**: Fetch changes to the docs/ai-skills subtree from ` https://github.com/LimeMojito/ai-skills` when there are changes in this folder. Use
   `git subtree pull --prefix=docs/ai-skills --squash https://github.com/LimeMojito/ai-skills main` to pull updates from the shared
   skills repository.
